@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 5px;
     font-family: 'Roboto',
         sans-serif;
     font-size: 3rem;
@@ -28,12 +28,21 @@
 img {
     max-width: 200px;
     border-radius: 6px;
+    padding: 10px;
+}
+
+h3 {
+    padding: 0 0 10px 0;
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 1.5rem;
+
 }
 
 .CTA {
     margin: 30px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #B33030;
     border: 2px solid black;
     cursor: pointer;
     font-family: 'Roboto',
@@ -41,10 +50,14 @@ img {
     font-size: 1rem;
     border-radius: 4px;
     max-width: 200px;
+    color: #000;
+    text-decoration: none;
+
 }
 
 .CTA:hover {
-    transform: translateY(0) scale(1.15);
+    transform: translateY(0) scale(1.1);
+    b
 }
 
 
