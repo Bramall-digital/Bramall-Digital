@@ -7,7 +7,7 @@
 
 
 body {
-    height: 100vh;
+    height: 80vh;
 }
 
 
@@ -43,10 +43,10 @@ header {
 }
 
 .nav-links li:hover {
-    color: red;
+    font-weight: 900;
+    transform: scale(1.1);
+    color: rgba(255, 0, 0, 0.7)
 }
-
-
 
 button {
     cursor: pointer;
@@ -60,6 +60,7 @@ button {
 button:hover {
     transition: 0.6s ease 0s;
     background-color: rgba(255, 0, 0, 0.4);
+    transform: scale(1.1);
 }
 
 .container {
@@ -98,12 +99,15 @@ h3 {
 
 
 
-
+i {
+    cursor: pointer;
+}
 
 
 .fa-brands {
     font-size: 24px;
-    padding: 0 10px 1em 10px;
+    padding: 0 10px 0 10px;
+    color: #000;
 }
 
 
@@ -115,7 +119,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 10%;
+
     font-family: 'Roboto',
         sans-serif;
 }
@@ -124,6 +128,17 @@ footer {
     margin: 0;
 }
 
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
 
 
 
