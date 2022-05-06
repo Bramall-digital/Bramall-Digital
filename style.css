@@ -133,34 +133,35 @@ footer {
 
     font-family: 'Roboto',
         sans-serif;
+    padding-bottom: 50px;
+}
+
+.social {
+    margin: 0;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
 
 
-    .social {
-        margin: 0;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+
+    .nav-links {
+        display: none !important;
     }
-
-    .fa-twitter:hover {
-        color: #1DA1F2;
-    }
-
-    .fa-instagram:hover {
-        color: #E1306C;
-    }
-
-    .fa-linkedin:hover {
-        color: #0e76a8;
-    }
-
-
-
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    @media screen and (max-width: 780px) {
-
-        .nav-links {
-            display: none !important;
-        }
