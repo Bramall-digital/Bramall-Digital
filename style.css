@@ -30,7 +30,6 @@ header {
 }
 
 
-
 .nav-links li {
     list-style: none;
     display: inline-block;
@@ -90,7 +89,7 @@ button:hover {
     margin: 5px;
     font-family: 'Roboto',
         sans-serif;
-    font-size: 3rem;
+    font-size: 6rem;
 }
 
 
